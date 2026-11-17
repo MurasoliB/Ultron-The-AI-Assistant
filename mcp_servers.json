@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "python",
+      "args": ["-m", "mcp_server_fetch"],
+      "description": "Fetch web pages and convert to readable markdown (Zero keys required)"
+    },
+    "puppeteer": {
+      "command": "npx.cmd",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"],
+      "description": "Browser automation: navigate, click, fill forms, take screenshots (Zero keys required)"
+    }
+  }
+}
